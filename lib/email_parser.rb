@@ -14,11 +14,8 @@ end
 
 def parse
 email_array = []
-email_array = @@emails.split(\[,/s]\)
+email_array = @@emails.split(\[/s]\)
 email_array.uniq
 end
-
-
-
 
 end
