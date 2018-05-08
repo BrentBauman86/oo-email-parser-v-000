@@ -12,7 +12,7 @@ def initialize(email)
 # binding.pry
 end
 
-def parse(email)
+def parse
 email_array = []
 email_array = @@emails.split(", ")
 email_array.uniq
