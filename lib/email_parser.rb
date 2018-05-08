@@ -9,7 +9,7 @@ attr_accessor :emails
 
 
 def initialize(email)
-self.emails = emails
+@emails = emails
 binding.pry
 end
 
