@@ -10,12 +10,11 @@ attr_accessor :emails
 
 def initialize(email)
 @@emails = emails
-emails.split(", ")
 end
 
 def parse
-@parse = parse
-parse.uniq
+email_array = []
+email_array.split(", ")
 end
 
 
