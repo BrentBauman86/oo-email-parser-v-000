@@ -14,7 +14,7 @@ end
 
 def parse
 email_array = emails.split(', ')
-email_array.each do |email|
+email_array.map do |email|
   # binding.pry
   email.split(' ')
 end.flatten.uniq
