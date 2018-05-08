@@ -19,5 +19,4 @@ email_array = email_array.collect do |email|
 end
 email_array.uniq
 end
-email_array
 end
