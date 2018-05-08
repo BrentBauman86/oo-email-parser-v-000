@@ -20,6 +20,6 @@ new_email_array = email_array.collect do |email|
 end
  # binding.pry
  new_email_array.flatten!
- # binding.pry
+  binding.pry
 end
 end
