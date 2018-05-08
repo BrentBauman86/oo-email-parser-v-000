@@ -16,7 +16,7 @@ def parse
 email_array = emails.split(" ")
 binding.pry
 email_array = email_array.collect do |email|
-  
+
   email.split(",")
   binding.pry
 end
