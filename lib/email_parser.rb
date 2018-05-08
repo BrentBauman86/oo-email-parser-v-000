@@ -18,7 +18,6 @@ email_array.collect do |email|
   emails.split(", ")
 end
 email_array.uniq
-email_array
 end
 
 
