@@ -14,12 +14,13 @@ end
 
 def parse
 email_array = emails.split(" ")
-new_email_array.uniq
+email_array.uniq
 new_email_array = email_array.collect do |email|
   emails.split(", ")
 end
  # binding.pry
  new_email_array.flatten!
+ new_email_array.uniq
   # binding.pry
 end
 end
