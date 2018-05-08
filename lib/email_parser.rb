@@ -13,15 +13,12 @@ def initialize(emails)
 end
 
 def parse
-email_array = emails.split(", ")
-email_array.uniq
-new_email_array = email_array.collect do |email|
- binding.pry
-  email.split(" ")
-end
+emails.collect do |email|
  # binding.pry
- new_email_array.flatten!
- new_email_array.uniq
+  email.split(", ")
+end.flatten.uniq
+ # binding.pry
+ 
   # binding.pry
 end
 end
