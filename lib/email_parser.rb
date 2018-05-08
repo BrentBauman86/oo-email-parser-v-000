@@ -18,7 +18,7 @@ email_array.uniq!
 new_email_array = email_array.collect do |email|
   emails.split(", ")
 end
-new_email_array.flatten
+new_email_array.uniq!.flatten
 # binding.pry
 end
 end
