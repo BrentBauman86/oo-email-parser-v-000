@@ -20,5 +20,4 @@ end
 email_array.uniq
 end
 
-
 end
