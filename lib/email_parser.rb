@@ -17,7 +17,7 @@ email_array = emails.split(" ")
 email_array = email_array.collect do |email|
   emails.split(", ")
 end
-email_array.uniq
+email_array = email_array.uniq
 binding.pry
 end
 end
