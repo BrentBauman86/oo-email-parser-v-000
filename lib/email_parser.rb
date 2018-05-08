@@ -13,7 +13,7 @@ def initialize(emails)
 end
 
 def parse
-email_array = emails.split(",")
+email_array = emails.split(", ")
 email_array.collect do |email|
   emails.split(" ")
 end
