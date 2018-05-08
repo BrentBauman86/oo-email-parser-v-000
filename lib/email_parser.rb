@@ -18,7 +18,7 @@ emails.collect do |email|
   email.split(", ")
 end.flatten.uniq
  # binding.pry
- 
+
   # binding.pry
 end
 end
