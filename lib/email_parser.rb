@@ -13,7 +13,8 @@ def initialize(emails)
 end
 
 def parse
-emails.collect do |email|
+email_array = emails.split(" ")
+email_array.collect do |email|
  # binding.pry
   email.split(", ")
 end.flatten.uniq
