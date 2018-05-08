@@ -14,7 +14,7 @@ end
 
 def parse
 email_array = emails.split(", ")
-email_array.collect do |email|
+email_array = email_array.collect do |email|
   emails.split(" ")
 end
 email_array.uniq
